@@ -17,3 +17,6 @@ All elements are distinct.
 Example 3:
 Input: nums = [1,1,1,3,3,4,3,2,4,2]
 Output: true
+
+Approach:-
+I will use a set to track seen elements as I iterate through the list. If any element is found in the set, it indicates a duplicate, and I return True; otherwise, return False after the iteration.
